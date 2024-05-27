@@ -131,7 +131,7 @@ def createRequestDict(text):
     
 # Predicts a comment as Offensive if toxicity is greater than threshold
 def PerspectivePredict(testFile, threshold = 0.5, outfile = None):
-    api_key = 'AIzaSyBPhjAeWHdTMDcWz7rLPVCRyOeaeMqkcro'
+    api_key = ''
     url = ('https://commentanalyzer.googleapis.com/v1alpha1/comments:analyze' +
                       '?key=' + api_key)
 
